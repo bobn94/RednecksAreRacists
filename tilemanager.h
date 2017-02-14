@@ -4,7 +4,7 @@
 class TileManager {
 private:
 	bool Initialized;
-	Tile *Tiles[49];
+	Tile *Tiles[];
 public:
 	TileManager();
 	~TileManager();
